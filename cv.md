@@ -4,9 +4,9 @@
 
 I am Names Patronymevich Surnamov, and right now i'm a beginner programming engineer.
 
-![My twitter]( http://sargelas.com/images/twitter_2.png)
+[Twitter](https://twitter.com/home)
 
-![My E-mail]( http://sargelas.com/images/pismo.png)
+[Email](https://www.google.com)
 
 *_Now about my personality a little:_*
 
