@@ -29,15 +29,15 @@ All of the above is at the beginner level.
 
 *_My JS code examples:_*
 
-	let superSumator = (digitOne, digitTwo) => {
-  	  let result = digitOne;
+  let superSumator = (digitOne, digitTwo) => {
+  let result = digitOne;
 
- 	    for (let i = 1; digitTwo > 0; digitTwo--) {
-    	  result += i;
-  	  }
+  for (let i = 1; digitTwo > 0; digitTwo--) {
+  result += i;
+  }
 
-  	return result;
-	};
+  return result;
+  };
 
 *_My programming work experience:_*
 
