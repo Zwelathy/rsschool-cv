@@ -1,5 +1,3 @@
-# Test CV file with Markdown formating
-
 ![It's me]( https://avatars.githubusercontent.com/u/50339890?v=4)
 
 I am Names Patronymevich Surnamov, and right now i'm a beginner programming engineer.
@@ -8,13 +6,13 @@ I am Names Patronymevich Surnamov, and right now i'm a beginner programming engi
 
 [Email](https://www.google.com)
 
-*_Now about my personality a little:_*
+***Now about my personality a little:***
 
 - I want to become a truly programming engineer who can solve many tasks: variable business needs and coding problems having technical interest.
 - At this moment I know a little HTML and CSS, and I'm learning the JavaScript programming language.
 - My const is a life experience (i'l see some shit); a lot of time, because... just because! And a lot of motivation from living in Russia under ruling tsar Pinya Mnogomakh. The dreams of piglet Petr have come true, and mine can do this.
 
-*_My hard skills:_*
+***My hard skills:***
 
 - HTML5
 - CSS
@@ -27,27 +25,29 @@ I am Names Patronymevich Surnamov, and right now i'm a beginner programming engi
 
 All of the above is at the beginner level.
 
-*_My JS code examples:_*
+***My JS code examples:***
 
-    let superSumator = (digitOne, digitTwo) => {
-      let result = digitOne;
-      for (let i = 1; digitTwo > 0; digitTwo--) {
-        result += i;
-      }
-      return result;
-    };
+	let superSumator = (digitOne, digitTwo) => {
+	  let result = digitOne;
+	
+	  for (let i = 1; digitTwo > 0; digitTwo--) {
+	    result += i;
+	  }
+	
+	  return result;
+	};
 
-*_My programming work experience:_*
+***My programming work experience:***
 
 Some arrays tasks [some tasks at ReplIt]( https://replit.com/@Zwelathy/Arraysuchebnye-zadachy#index.js)
 
 HTML and CSS [PSD at CodePen]( https://codepen.io/zwelathy/pen/ZEaLQjd)
 
-*_My education level:_*
+***My education level:***
 
 Specialist degree of psychology.
 
-*_I speak languages:_*
+***I speak languages:***
 
 1. English A2+
 
