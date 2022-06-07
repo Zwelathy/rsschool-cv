@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  font-size: 14px;
+  font-size: 3vw;
+  width: 100vw;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color:azure;
+}
+
+.avatar {
+  width: 100px;
+}
+
+.twitter-logo {
+  width: 25px;
+}
+
+.email-logo {
+  width: 25px;
+}
