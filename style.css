@@ -1,4 +1,20 @@
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content-block {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*body {
   background-color: black;
   font-size: 14px;
   font-size: 3vw;
@@ -22,4 +38,89 @@ h3 {
 
 .email-logo {
   width: 25px;
+}
+*/
+
+/* подвал взял из своей ранней вёрстки Нетологии */
+
+.footer {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 63px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-icons {
+  padding-top: 32px;
+  padding-bottom: 33px;
+  margin-bottom: 70px;
+  background-color: #f3f7f5;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+}
+
+.socials-list-item {
+  display: block;
+}
+
+.socials-list-item:nth-child(n+2) {
+  margin-left: 8px;
+}
+
+.social-link-block {
+  display: block;
+  width: 40px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+}
+
+.twitter-profile-link {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+  /*background-size: 25px;*/
+}
+
+.pinterest-profile-link {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+}
+
+.facebook-profile-link {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+}
+
+.instagram-profile-link {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+}
+
+.tumbler-profile-link {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+}
+
+.text-for-socials {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright-link {
+  text-decoration: none;
+}
+
+.copyright-text {
+  font-family: OpenSans-Bold, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #999999;
 }
