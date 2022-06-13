@@ -4,51 +4,51 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Times New Roman', Times, serif, serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* див, формирующий всё боди колонной */
 .content-block {
   display: flex;
-  justify-content: space-between;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  flex-direction: column;
+  width: 100vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
   margin-left: auto;
   margin-right: auto;
 }
 
-/*body {
-  background-color: black;
-  font-size: 14px;
-  font-size: 3vw;
-  width: 100vw;
+.header {
+  display: flex;
+  padding: 25px;
 }
 
-p,
-h1,
-h2,
-h3 {
-  color:azure;
+.avatar-logo {
+  width: 140px;
+  border: 5px solid #f3f7f5;
+  border-radius: 25px;
+  content: center;
 }
 
-.avatar {
-  width: 100px;
+.header-text {
+  padding: 50px;
+  text-align: center;
 }
 
-.twitter-logo {
-  width: 25px;
+.main {
+  margin: 50px 15px;
 }
-
-.email-logo {
-  width: 25px;
-}
-*/
 
 /* подвал взял из своей ранней вёрстки Нетологии */
-
 .footer {
-  width: 1200px;
+  width: 500px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 63px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,7 +56,7 @@ h3 {
 .contact-icons {
   padding-top: 32px;
   padding-bottom: 33px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   background-color: #f3f7f5;
 }
 
@@ -83,24 +83,23 @@ h3 {
 }
 
 .twitter-profile-link {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
-  /*background-size: 25px;*/
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/twitter-icon.svg);
 }
 
 .pinterest-profile-link {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/pinterest-icon.svg);
 }
 
 .facebook-profile-link {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/facebook-icon.svg);
 }
 
 .instagram-profile-link {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/instagram-logo.svg);
 }
 
-.tumbler-profile-link {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+.email-link {
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/email-logo.svg);
 }
 
 .text-for-socials {
@@ -119,7 +118,7 @@ h3 {
 }
 
 .copyright-text {
-  font-family: OpenSans-Bold, Arial, sans-serif;
+  font-family: 'OpenSans-Bold', Arial, sans-serif;
   font-size: 12px;
   line-height: 1.4;
   color: #999999;
