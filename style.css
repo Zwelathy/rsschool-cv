@@ -81,7 +81,7 @@ h1 {
 }
 
 .social-button:hover {
-  border-radius: 75px;
+  border-radius: 50%;
   border: 2px solid #000000;
   background-color: #999999;
 }
