@@ -1,25 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: black;
-  font-size: 14px;
-  font-size: 3vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-p,
-h1,
-h2,
-h3 {
-  color:azure;
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #ffffff;
 }
 
-.avatar {
+.header-bar {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  background-color: #f3f7f5;
+  height: 50px;
+  padding: 0 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.rss-logo {
   width: 100px;
+  padding-top: 5px;
 }
 
-.twitter-logo {
-  width: 25px;
+.header-block {
+  width: 60vw;
+  display: flex;
+  margin-top: 15px;
 }
 
-.email-logo {
-  width: 25px;
+.avatar-logo {
+  width: 140px;
+  margin-left: 30px;
+  border: 5px solid #f3f7f5;
+  border-radius: 25px;
+  content: center;
+}
+
+.header-text {
+  padding: 50px;
+  text-align: center;
+}
+
+.navigation-buttons {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.social-button {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50px;
+}
+
+.social-button:hover {
+  border-radius: 50%;
+  border: 2px solid #000000;
+  background-color: #999999;
+}
+
+.socials-button-item {
+  display: block;
+}
+
+.socials-button-item:nth-child(n+2) {
+  margin-left: 30px;
+}
+
+h2 {
+  font-style: italic;
+  padding: 0 2px;
+}
+
+.pseudo-for-h2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.pseudo-for-h2:before {
+  content: "";
+  display: block;
+  background-color: #f3f7f5;
+  width: 5vw;
+  height: 5px;
+  margin: auto;
+}
+
+.pseudo-for-h2:after {
+  content: "";
+  display: block;
+  background-color: #f3f7f5;
+  width: 20vw;
+  height: 5px;
+  margin: auto;
+}
+
+.main {
+  margin: 280px auto auto 25px;
+
+}
+
+.main-section {
+  margin: 25px 0;
+}
+
+pre {
+  color: #999999;
+}
+
+.code-demo {
+  margin: 15px auto;
+  background-color: #f3f7f5;
+  border-radius: 15px;
+}
+
+/* подвал взял из своей ранней вёрстки Нетологии */
+.footer {
+  width: 60vw;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-icons {
+  padding-top: 32px;
+  padding-bottom: 33px;
+  margin-bottom: 20px;
+  background-color: #f3f7f5;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+}
+
+.socials-list-item {
+  display: block;
+}
+
+.socials-list-item:nth-child(n+2) {
+  margin-left: 8px;
+}
+
+.social-link-block {
+  display: block;
+  width: 40px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+}
+
+.twitter-profile-link {
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/twitter-icon.svg);
+}
+
+.pinterest-profile-link {
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/pinterest-icon.svg);
+}
+
+.facebook-profile-link {
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/facebook-icon.svg);
+}
+
+.instagram-profile-link {
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/instagram-logo.svg);
+}
+
+.email-link {
+  background-image: url(https://raw.githubusercontent.com/Zwelathy/rsschool-cv/6e931e0d1d88dd234ceff081d97b446ac6c87cc3/email-logo.svg);
+}
+
+.text-for-socials {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright-link {
+  text-decoration: none;
+}
+
+.copyright-text {
+  font-family: 'OpenSans-Bold', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #999999;
 }
